@@ -7,4 +7,4 @@ Proyectos pequeños de javascript para repasar
 * Javascript/Typescript
 
 ## Enlaces
-- proyecto To Do List (wip):: https://yumyum0035.github.io/miniproyectos-js/ToDoProject/index.html
+- Proyecto To Do List (wip):: https://yumyum0035.github.io/miniproyectos-js/ToDoProject/index.html
