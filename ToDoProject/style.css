@@ -1,0 +1,58 @@
+:root {
+	/* colors */
+	--accent-color: #ff84b3;
+	--side-color: #67afc5;
+	--black: #202020;
+	--light-gray: #ddd;
+ 
+	/* utlities */
+	--box-shadow: 0 5px 10px var(--light-gray);
+	--border: 1px solid var(--accent-color);
+ 
+	/* fonts */
+	--helvetica: Helvetica, sans-serif;
+}
+ 
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+ 
+body {
+	font-family: var(--helvetica);
+	font-size: 1rem;
+}
+ 
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h3 { margin: 20px 0; }
+p { margin: 20px 25px; }
+
+ 
+a:link, a:active, a:visited {
+	color: var(--accent-color);
+	text-decoration: none;
+}
+
+a:hover { color:var(--side-color); }
+
+div { margin: 15px; }
+
+[type="checkbox"]:checked {
+	background: red;
+}
+
+/****** media queries (mobile first) ******/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
